@@ -57,6 +57,7 @@ export function isValidate(classAraay)
                  return true;
              }
         }
+        //메일 형식 체크
         if(classAraay[i].classList.contains('checkMail') == true && classAraay[i].value != "")
         {
              var telePhonePattern = /^\d{2,3}-\d{3,4}-\d{4}$/;

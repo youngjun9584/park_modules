@@ -1,0 +1,25 @@
+label {
+    cursor: pointer;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -webkit-user-drag: none;
+}
+.check-shaped-label {
+    display: inline-block;
+    content: "\2713"; /* 체크표시 유니코드 사용 */
+    width: 25px; /* 체크박스의 너비를 지정 */
+    height: 25px; /* 체크박스의 높이를 지정 */
+    line-height: 25px; /* 세로정렬을 위해 높이값과 일치 */
+    margin: -2px 8px 0 0;
+    text-align: center;
+    vertical-align: middle;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    border: 1px solid #cacece;
+    border-color: #adb8c0;
+    border-radius: 3px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05), inset 15px 10px -12px rgba(255, 255, 255, 0.1);
+}
